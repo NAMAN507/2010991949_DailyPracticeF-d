@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Learning to use javascript</title>
+</head>
+<body>
+	<p id="Para">
+		Demo of Javascript
+		
+		<!-- <script type="text/javascript">
+			var price=6;
+			var p2=7;
+			var totp=price +p2;
+			console.log(totp);
+			document.getElementById("Para").innerHTML="The total is " + totp;
+		</script> -->
+		<script>
+			let person={
+				fname : "Aaditya",
+				lname : "Duggal",
+				age : 21,
+				ecolor : "Black",
+			};
+			document.getElementById("Para").innerHTML="Name of the person is : "+person.fname +" "+person.lname;
+			//document.getElementById("Para").innerHTML="Age is : "+person.age;
+		</script>
+	</p>
+	<div id="out">
+		<script type="text/javascript">
+			var n=Number("123");
+			n=n+2;
+			var s="2";
+			s=n+s;
+			document.getElementById("out").innerHTML="n (123+2)" + n+ ", s (n + s)" + s;
+		</script>
+	</div>
+	<br>
+	<div id="pie">
+		<script type="text/javascript">
+			var r=5;
+			var res=3.14*r*r;
+			document.getElementById("pie").innerHTML="The area of circle with radius "+r+" is "+res;
+		</script>
+	</div>
+</body>
+</html>

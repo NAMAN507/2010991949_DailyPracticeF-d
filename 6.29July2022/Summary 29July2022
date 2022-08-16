@@ -1,0 +1,28 @@
+Summary 29July2022
+
+Javascript
+	This is web development language which is used to create dynamism in html pages.Any dynamic behaviour in html page is done with the help of javascript.
+
+	Three ways to declare javascript variable:
+		var, let, cosnt
+
+	We can run javascript in two ways
+		using node : By using node and running javascript through cmd.
+		using html : By embedding the javascript code in html code.
+
+	using javascript using html:
+		Script tag is used to embed the code in the html body
+
+	To show output of javascript :
+		console.log(//The statement you want to print);  //This command is usedto maintian log files and it outputs the output in console of the browser
+
+		documnet.getElementById("Idname").innerHTML="Total is: " + totp;
+		This line outputs the output on the window
+
+	Question : if i use idname of the object before declaring the object will it help me show the output of the javascript code?
+		If you call any object before declaration then nothing will happen. To return javascript output you have to first create an object and then call it 
+		if we are not following this then it will not work.
+
+	object in javac=script is the value that stores multiple key valkue pairs.
+	Syntax:
+		let person={fname:"Aaditya", lname:"Duggal",age:21,ecolor : "Black"};
