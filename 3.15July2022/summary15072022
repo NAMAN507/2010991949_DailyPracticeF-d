@@ -1,0 +1,40 @@
+1. <nav>	
+		This tag is used to group anchor tags.
+		It is more specific and it groups all anchor tags under one head and it will be aeasy to do styling using it.
+		</nav> is its closing format
+2. <label>
+		This tag is similar to paragraph tag but it is slightly different.
+		THis tag is basically used to take input in forms.
+		As soon as we click on text of label it points the pointer to the input linked to that label
+		input boxes are linked by using "for" and "id" attributes of the tags.
+3. <progress>
+		This tag is used to show progress of a paticular thing. It fills up certain percentage of bar based on the value.
+		id,value and max are its attributes where :
+				id is used to link it with its label.
+				value is used to give the value of how much it is to be filled.
+				max gives the maximum value required it to fill
+4. <input>
+		This tag is used to have some input from user.
+5. <form>
+		It is user interface where user can add information.
+		Information is validated in browser or server based on service we are using.
+
+		It is used to get the systematic digital data.
+		Attributes:
+			action= used to specify where the formdata is to be sent to the server after submission of the form.
+			method= it specifies how to send the data
+				It can have two values "get" or "post".
+				Get:-
+					Appends form-data into the URL in name/value pairs
+					The length of a URL is limited (about 3000 characters)
+					Never use GET to send sensitive data! (will be visible in the URL)
+					Useful for form submissions where a user wants to bookmark the result
+					GET is better for non-secure data, like query strings in Google
+					Get fetches the data from form and combines it with url of the page and then sends it, thus making it prone to be known
+				Post:-
+					Appends form-data inside the body of the HTTP request (data is not shown in URL)
+					Has no size limitations
+					Form submissions with POST cannot be bookmarked 
+6.<input>
+	types=text,number,alphanumeric,radio
+		in radio button is you want only one radio to be selected out of n radio buttons then use the same name for all n radio buttons
