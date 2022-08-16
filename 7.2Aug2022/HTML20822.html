@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>02Aug2022 Practice</title>
+	<script>
+		function fnClick()
+		{
+			var a=document.getElementById("n1").value;
+			var b=document.getElementById("n2").value;
+			if(!isNaN(a) && !isNaN(b))
+			{
+				a=Number(a);
+				b=Number(b);
+				document.getElementById("p1").innerHTML=(a+b);
+			}			
+			else
+			{
+				document.getElementById("p1").innerHTML="<span style='color:red; font-size:32px; font-weight:bold;'>Please Enter numbers only.</span>";
+			}
+
+			// document.getElementById("p1").innerHTML = Boolean(10>9);
+			// alert("Hi How are you?");
+		}
+		function evenNo()
+		{
+			var a=document.getElementById("n1").value;
+			a=Number(a);
+			if(a%2==0)
+			{
+				document.getElementById("p1").innerHTML=a+" is a even number";
+			}
+			else
+			{
+				document.getElementById("p1").innerHTML=a+" is odd number";
+			}
+		}
+		function primeNo()
+		{
+			var a=document.getElementById("n2").value;
+			a=Number(a);
+			var count=Number(0);
+			for(let i=2;i<=a;i++)
+			{
+				if(a%i==0)
+				{
+					count=count+1;
+				}
+			}
+			if(count==1)
+			{
+				document.getElementById("p1").innerHTML=a+" is prime";
+			}
+			else
+			{
+				document.getElementById("p1").innerHTML=a+" is not prime";
+			}
+		}
+		function countBalls()
+		{
+			var a=document.getElementById("n3").value;
+			var bande=document.getElementById("n4").value;
+			bande=Number(bande);
+			a=Number(a);
+			if(a%bande==0)
+			{
+				document.getElementById("p1").innerHTML=a/bande+"\n Remaining balls : "+0;
+			}
+			else
+			{
+				var out=(a-(a%bande))/bande;
+				document.getElementById("p1").innerHTML=out+"\n Remaining balls : "+Number(a%bande);
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="d1">
+		N1<input type="text" name="n1" id="n1"/><br/>
+		N2<input type="text" name="n1" id="n2"/><br/>
+		N3<input type="text" name="n1" id="n3"/><br/>
+		N4<input type="text" name="n1" id="n4"/><br/>
+
+		<button onclick="evenNo()">Click here</button>
+		<button onclick="primeNo()">Check Prime</button>
+		<button onclick="countBalls()">Calculate</button>
+
+		<p id="p1"></p>
+	</div>
+</body>
+</html>

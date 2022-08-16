@@ -1,0 +1,20 @@
+onclick Event in javascript
+
+function is a set of statements written in block that can be called by function name when it is required;
+
+Creating functions in javascript:
+	function in javascript is created using function keyword.
+	Syntax:
+		function funName()
+		{
+			//Statements of functions goes here
+		}
+	Example:
+		function fnClick()
+		{
+			alert("Hi,How are you?");
+		}
+
+		Here alert renders an alert box on the webpage.
+
+	Inbuilt function isNaN(parameter is the value you want to check) is a method that is used to check whether the enetered value is number or not.
