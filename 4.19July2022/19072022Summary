@@ -1,0 +1,11 @@
+CSS:
+	CAscading style sheet is used to set and basically beautify the basic elements of html. we use it to style html elements.
+	it describes how html elements must be displayed.
+
+	There are three ways to describe css:
+		1. Internal
+		2. External
+		3. Inline
+
+	Internal CSS:
+		To declare internal css we use style tag.
