@@ -1,0 +1,17 @@
+While finding solution for 5 Dig problem 
+	
+	Properties of Css Learnt:
+		transition:
+			It is used when we want to change the value from one to another over time.
+			Further it has many attributes:
+				a. transition-property :- This takes the property on which to apply transition(all is the default value)
+				b. transition-duration :- This takes rel number as value which describes for how much time the transition will be there.
+				c. transitio-timing-function :- This tells how the timing of transition will be managed. Example 
+					if its value is ease-out then transition will start fast and till end it will become slow
+				d. transition-delay :- This tells after how much time to start transition 
+
+	Functionalities of JAvascript:
+		to play with css values in javascript there are many ways:
+			1.using style.property-name:
+				Syntax=document.getElementById("id-name").style.property-name=value with which you want to replace the previous value;
+			2. 

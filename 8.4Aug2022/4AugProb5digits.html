@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>5 Digits Problem</title>
+	<link rel="stylesheet" type="text/css" href="5DigCss.css">
+	<script src="5DigProb.js"></script>
+	
+</head>
+<body bgcolor="Yellow">
+	<table id="frm"  align="center">
+		<tr >
+			<td colspan="2" align="center">
+				<h1><u>5 Digits Problem</u> </h1>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="inpu"><b>Enter the number :-</b></label>
+			</td>
+			<td>
+				<input type="text" id="inpu" name="inputs" />
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				<label for="inpu1"><b>Choose Color:-</b></label>
+			</td>
+			<td>
+				<select id="inpu1" name="inputs">
+					<option value="White">White</option>
+					<option value="Red">Red</option>
+					<option value="Blue">Blue</option>
+					<option value="Green">Green</option>
+					<option value="Brown">Brown</option>
+				</select>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="center">
+				<button onclick="playWithDigits()" ><b>Click on me</b></button>
+			</td>
+			<td>
+				<button onclick="toggleShapes()"><b>Toggle Shapes</b></button>
+			</td>
+		</tr>
+	</table>
+	<div id ="outerdiv" align="center">
+		<p><u><b>OUTPUT WINDOW</b></u></p>
+		<div id="outWin">
+			<div id="box">
+
+			</div>
+		</div>
+	</div>
+</body>
+</html>
