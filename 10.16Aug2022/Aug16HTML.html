@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Validation using regex</title>
+	<script type="text/javascript" src="16AugJavaScript.js" ></script>
+</head>
+<body>
+	<h1>Form Validation using RegExp</h1>
+	<form
+	name="formvalidate"
+	action="formprocess.html"
+	method="get"
+	onSubmit="return check(formvalidate)">
+		<label for="fl1"><b>Name:</b></label>
+		<input type="text" size="50" id="fl1" name="myname"/>
+		<br/><br/>
+
+		<label for="fl2"><b>Phone No:</b></label>
+		<input type="text" size="10" id="fl2" name="myphone" />
+		<br/><br/>
+
+		<input type="submit" value="Submit" />
+		<input type="reset" value="Clear" />
+
+	</form>
+</body>
+</html>

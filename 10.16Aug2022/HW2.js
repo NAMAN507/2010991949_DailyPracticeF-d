@@ -1,0 +1,1 @@
+document.getElementById("pa").innerHTML=sessionStorage.nam+"  "+sessionStorage.rolno;
