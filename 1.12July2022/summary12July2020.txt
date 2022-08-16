@@ -1,0 +1,18 @@
+today i learned how to link local git with remote git and how to upload files to remote git.
+
+gitignore file is used to hide the files you dont want to be there in your repository
+
+commands used today:-
+1. git init
+2. git status
+3. git add <filename>
+4. git add .
+5. git commit -m "message"
+6. git log
+7. git branch = lists all the branches in existence
+8. git branch <branchName> =create a new branch
+9. git checkout -b <branchname> =to create and switch to the newly created branch
+10. git checkout <branchname> = to move to given branch name
+11. git branch -M main
+12. git remote add origin <origin link> //requires to mention only once and if you want to change the link then use this command again
+13. git push -u origin main
