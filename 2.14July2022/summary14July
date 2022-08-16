@@ -1,0 +1,36 @@
+HTML : Hypertext markup language
+		hypertext=some exclusive text
+		markup=highlighting or marking text
+
+Html is used to define the structure of webpage, where structure means how to place and present the content using webpage.(define the arrangement of text).
+
+In a website:
+	element is defined by html.(hypertext markup language)
+	view of element is defined by css.(cascading style sheet)
+	behaviour of element is defined by javascript.
+
+Doctype in html tells us that we are using 5th version of html.
+
+Without fevicon icon on your site SEO shows error.
+
+UTF : Unicode transformation code. It is a character encoding format.
+	<meta charset="UTf-8"/> This means the site will be able to encode and decode the characters which belongs to utf -8
+
+Height attribute never works with percentage.It always works with pixels.
+
+<video></video> this is the tag used to embed video on your webpage.
+	attributes : 1.Height, 2.Width, 3.controls autoplay //In these values height will always be given in pixels
+	<source> this tag used inside video tag and it contains src i.e link of the video to be played.
+	to play the video from youtube iframe tag is used.
+
+<figure>
+	<img
+		src="download.jfif"
+		alt="Image nahi mili"
+		style="width: 50%"
+	/>
+	<figcaption>Fig-1</figcaption>
+</figure>
+	figure tag is used to work with images.In this tag we will further use img tag to tell source of image, alternate message, style.
+	figurecaption tag is used to give caption to image.
+

@@ -1,0 +1,13 @@
+HTML : Hypertext markup language
+		hypertext=some exclusive text
+		markup=highlighting or marking text
+
+Html is used to define the structure of webpage, where structure means how to place and present the content using webpage.(define the arrangement of text).
+
+In a website:
+	element is defined by html.(hypertext markup language)
+	view of element is defined by css.(cascading style sheet)
+	behaviour of element is defined by javascript.
+
+Doctype in html tells us that we are using 5th version of html.
+
