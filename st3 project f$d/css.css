@@ -1,0 +1,27 @@
+body{
+  /* background-image: url('https://th.bing.com/th/id/OIP.OAKFemX0VG5PLOHjQPBULQAAAA?pid=ImgDet&w=360&h=360&rs=1'); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: black;
+  color: rgb(246, 242, 242);
+}
+
+#first{
+  height: 200px;
+  width: 200px;
+}
+
+#div1{
+  display: flex;
+}
+
+#div2{
+  display: flex;
+}
+
+.planet{
+  margin: 0.5em;
+  padding: 0.3em;
+}
